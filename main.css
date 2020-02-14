@@ -1,0 +1,330 @@
+
+/*--- common ---*/
+a {
+    text-decoration: none !important;
+}
+
+.main-text-color{
+    color: #ff4a32;
+}
+
+.border-bottom-cus{
+    border-bottom: 1px solid #ffeaea;
+}
+
+.select-cus {
+   max-width: 250px;
+}
+
+.select-cus select{
+    border: 1px solid #ffeaea;
+    font-size: 12px;
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+}
+.select-cus select::-ms-expand {
+    display: none;
+}
+
+.select-cus select + i.fa {
+    float: right;
+    margin-top: -28px;
+    margin-right: 10px;
+    pointer-events: none;
+    background-color: #fff;
+    padding-right: 5px;
+}
+
+.loading-text{
+    font-size: 13px;
+    font-style: italic;
+}
+
+/*--- modal ---*/
+.modal-input-cus{
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #ff4a32;
+    margin: 25px 0;
+    padding: 10px 0;
+    height: 45px;
+}
+
+.modal-input-cus:focus{
+   box-shadow: none;
+   border-bottom: 2px solid #ff4a32;
+}
+
+.modal-close-icon{
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 10;
+}
+
+/*---header and navigation bar ---*/
+
+.page-header {
+    height: 245px;
+    background-color: #ff4a32;
+}
+
+.logo-img {
+    width: 128px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.nav-item__link {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.nav-item__link:hover {
+  color: #ffffff;
+}
+
+.navbar-user-info__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-content__main-text{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.header-content__sub-text{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/*--- body ---*/
+
+.credits-block{
+    margin-top: -25px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 11px 0 rgba(223, 26, 0, 0.12);
+}
+
+
+.credits-info__item__img{
+    max-width: 217px;
+    border-top-left-radius: 5px;
+    margin-bottom: -1px;
+}
+
+.credits-info__item__info__credits{
+    font-size: 12px;
+}
+
+.credits-info__item__info__location{
+    font-size: 14px;
+    color: #1a0f0f;
+    font-weight: 500;
+}
+
+.credits-info__item__info__type{
+    font-size: 14px;
+}
+
+.credits-info__member-ship__seperate-line{
+    width: 60px;
+    height: 4px;
+    background-color: #ff4a32;
+    margin: 10px 0;
+}
+
+.credits-info__member-ship__item{
+    border: 1px solid #ffeaea;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.credits-info__member-ship__item.active{
+    box-shadow: 0 5px 20px 0 rgba(223, 26, 0, 0.17);
+    background-color: #ff4a32;
+}
+
+.credits-info__member-ship__item__main-text__number,
+.credits-info__member-ship__item__price{
+    font-size: 20px;
+}
+
+.credits-info__member-ship__item__sub-text{
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 600;
+  color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+.credits-info__member-ship__item__price-sub-text{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.credits-info__member-ship__item__seperate-line{
+    width: 26px;
+    height: 3.3px;
+    background-color: #000;
+    margin: 10px 0;
+}
+
+.credits-info__member-ship__item.active .credits-info__member-ship__item__seperate-line{
+    background-color: #fff;
+}
+
+.credits-info__member-ship__item.active .credits-info__member-ship__item__sub-text{
+  color: #fff;
+}
+
+.credits-info__member-ship__item.active .credits-info__member-ship__item__main-text, 
+.credits-info__member-ship__item.active .credits-info__member-ship__item__price,
+.credits-info__member-ship__item.active .credits-info__member-ship__item__price-sub-text,
+.credits-info__member-ship__item.active .credits-info__member-ship__item__main-text__number,
+.credits-info__member-ship__item.active .credits-info__member-ship__item__price__number{
+  color: #fff;
+}
+
+.credits-info__member-ship__warning__text{
+    font-size: 13px;
+    font-weight: 500;
+    color:#302f2f
+}
+
+.credits-summary{
+    border-left: 1px solid #ffeaea;
+    background-color: #fbfbfb;
+}
+
+.credits-summary__discount{
+    background-color: #ffeaea;
+}
+
+.credits-summary__info__name,
+.credits-summary__info__type{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.credits-summary__price, 
+.credits-summary__total-price, 
+.credits-summary__total-text{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.credits-summary__sub-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #aaaaaa;
+}
+
+.credits-summary__add-promo-code{
+    font-size: 14px;
+    cursor: pointer;
+}
+.credits-summary__promo-item__name{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.credits-summary__promo-item__email{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.credits-summary__check-out__btn{
+    background-color: #ff4a32;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+}
+.membership-benifits__item{
+    padding-right: 20px !important;
+    margin: 10px 0;
+}
+
+.membership-benifits__item__title,
+.membership-benifits__item__des{
+    color:#1a0f0f;
+}
+
+.membership-benifits__item__title{
+    cursor: pointer;
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+
+.membership-question__item{
+    border-bottom: 1px solid #ffeaea;
+    padding: 15px 0;
+}
+
+.membership-benifits__faqs{
+    font-size: 13px;
+}
+
+.seperate-img{
+    width: 100%;
+}
+
+/*--- footer ---*/
+
+.page-footer__item__sub-text{
+    display: block;
+    font-size: 13px;
+    color: #ff4a32;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.page-footer-img{
+    max-width: 100%;
+}
+
+.page-footer__social-icon,
+.page-footer__app-icon{
+    padding: 0px 15px;
+    font-size: 25px;
+}
+.page-footer__app__main-text{
+    font-size: 14px;
+}
+
+.page-footer__app-icon__text{
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 600;
+    color: #aaaaaa;
+    margin-top: -3px;
+}
+
+@media (max-width: 576px){
+ .header-content__main-text {
+   font-size: 25px;
+ }
+ .header-content__sub-text,
+ .navbar-user-info__title {
+   font-size: 10px;
+ }
+
+ .navbar-user-info__img{
+     height: 37px;
+     width: 37px;
+ }
+
+}
